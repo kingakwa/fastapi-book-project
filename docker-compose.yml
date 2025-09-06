@@ -9,6 +9,7 @@ services:
  # No host port mapping needed
     expose:
       - "8000"  # Expose internal port to Docker network
+      command: uvicorn main:app --host 0.0.0.0 --port 8000
   nginx:
     image: nginx:alpine
     container_name: nginx_proxy
