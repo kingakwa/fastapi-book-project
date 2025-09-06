@@ -56,6 +56,8 @@ cd fastapi-book-project
 2. Create a virtual environment:
 
 ```bash
+source venv/Scripts/activate
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
